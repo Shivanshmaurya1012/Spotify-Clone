@@ -1,0 +1,76 @@
+.border{
+    border: 0.5px solid red;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert
+{
+    filter: invert(1);
+}
+.bg-grey{
+    background-color: #121212;
+    color: white;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+.rounded{
+    border-radius: 7px;
+}
+/* Custom Scrollbar Styles */
+
+
+/* Main scrollbar styles */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+    height: 12px; /* Height of the scrollbar (for horizontal scrollbar) */
+}
+
+/* Track styles */
+::-webkit-scrollbar-track {
+    background: #2e2e2e; /* Dark background for the track */
+    border-radius: 10px; /* Rounded corners for the track */
+}
+
+/* Handle styles */
+::-webkit-scrollbar-thumb {
+    background: #555; /* Darker color for the handle */
+    border-radius: 10px; /* Rounded corners for the handle */
+}
+
+/* Handle hover styles */
+::-webkit-scrollbar-thumb:hover {
+    background: #888; /* Lighter color when hovering */
+}
+
+/* Handle active styles */
+::-webkit-scrollbar-thumb:active {
+    background: #aaa; /* Even lighter color when active (clicked) */
+}
+
+/* Optional - Horizontal scrollbar styles */
+::-webkit-scrollbar-horizontal {
+    height: 12px; /* Height of the horizontal scrollbar */
+}
+
+/* Optional - Horizontal scrollbar track styles */
+::-webkit-scrollbar-track:horizontal {
+    background: #2e2e2e; /* Dark background for the horizontal track */
+}
+
+/* Optional - Horizontal scrollbar handle styles */
+::-webkit-scrollbar-thumb:horizontal {
+    background: #555; /* Darker color for the horizontal handle */
+}
+ 
